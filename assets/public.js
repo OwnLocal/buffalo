@@ -1,8 +1,8 @@
 $.ajax({
-  url: "//typelaunch.ownlocal.com/assets/firebase.js",
+  url: "//alpha.typelaunch.com/assets/firebase.js",
   success: function(data) {
     $.ajax({
-      url: "//typelaunch.ownlocal.com/assets/content.js"
+      url: "//alpha.typelaunch.com/assets/content.js"
     });
   }
 });
